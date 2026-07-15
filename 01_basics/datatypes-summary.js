@@ -33,3 +33,29 @@ const myFunction = function(){
 }
 
 console.log(typeof outsideTemp)
+
+
+
+//------------------------------------
+//stack (primitive),heap(non-primitive)
+ //stack --> copy
+ //heap  --> refernce
+
+
+
+ let myName="kanishka"
+ let anotherName=myName
+ anotherName="xyz"
+ console.log(myName)
+ console.log(anotherName)
+
+
+let detailOne={
+    email:"k@123google.com",
+    collge:"kit"
+
+}
+let detailTwo=detailOne
+console.log(detailOne)
+detailTwo.email="s@123google.com"
+console.log(detailTwo)
