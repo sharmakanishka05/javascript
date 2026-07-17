@@ -21,7 +21,7 @@
   console.log( typeof newArr)
 
   console.log("A",myArr)
-  const myn1=myArr.slice(1,3)//slice-exclude lasst index and not change oroginal array
+  const myn1=myArr.slice(1,3)//slice-exclude last index and not change oroginal array
   console.log(myn1)
   console.log("B",myArr)
   const myn2= myArr.splice(1,3)
@@ -31,3 +31,5 @@
   const myn3=myArr.splice(1,3)//splice- include last index and changement is done in original array
   console.log(myn3)
 
+
+  
