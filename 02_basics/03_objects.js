@@ -15,7 +15,7 @@ const jsUser={
     location:"jaipur",
     email:"kanishka@123google.com",
     isLoggedId:false,
-    lastLoginDays:["Moanday","Sunday","Tuesday"]
+    lastLoginDays:["Monday","Sunday","Tuesday"]
 }
 console.log(jsUser.isLoggedId)
 console.log(jsUser["email"])
